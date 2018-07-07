@@ -14,14 +14,15 @@ Summary: A simple testing framework for command line applications
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/cram-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/cram-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/cram-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/cram-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/cram-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/cram-feedstock/branch/master)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/cram-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/cram-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/cram/badges/version.svg)](https://anaconda.org/conda-forge/cram)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/cram/badges/downloads.svg)](https://anaconda.org/conda-forge/cram)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-cram-green.svg)](https://anaconda.org/conda-forge/cram) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/cram.svg)](https://anaconda.org/conda-forge/cram) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/cram.svg)](https://anaconda.org/conda-forge/cram) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/cram.svg)](https://anaconda.org/conda-forge/cram) |
 
 Installing cram
 ===============
@@ -66,6 +67,7 @@ To manage the continuous integration and simplify feedstock maintenance
 Using the ``conda-forge.yml`` within this repository, it is possible to re-render all of
 this feedstock's supporting files (e.g. the CI configuration files) with ``conda smithy rerender``.
 
+For more information please check the [conda-forge documentation](https://conda-forge.org/docs/).
 
 Terminology
 ===========
