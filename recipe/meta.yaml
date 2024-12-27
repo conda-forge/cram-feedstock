@@ -37,7 +37,7 @@ test:
 
 about:
   home: https://bitheap.org/cram/
-  license: GPL-2.0
+  license: GPL-2.0-or-later
   license_file: COPYING.txt
   summary: 'A simple testing framework for command line applications'
   license_family: GPL2
